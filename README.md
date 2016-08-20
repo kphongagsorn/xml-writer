@@ -4,5 +4,6 @@ Creates xml files with input from a specified input file for each element attrib
 
 This script can be used to quickly create xml input files with fuzzing data to test systems using SOAP.
 
-
+```python
 usage: xml_writer.py xmlSample.xml inputfile.txt outputfileName
+```
