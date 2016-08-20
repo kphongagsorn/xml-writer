@@ -42,8 +42,8 @@ def main(argv):
     md = minidom.parse(xmlFile)
     
     #root element 
-    batch=md.getElementsByTagName('ROOT') 
-    rootRef = batch[0]
+    root=md.getElementsByTagName('ROOT') 
+    rootRef = root[0]
     outFileCounter = 0 
     
     #only goes 3 levels deep after root
